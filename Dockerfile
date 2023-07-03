@@ -1,7 +1,7 @@
 FROM ubuntu/jre:17-22.04_8
 
-RUN apt install curl
+RUN apt install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x -o setup_14.sh
 RUN sh ./setup_14.sh
 RUN apt update
-RUN apt install nodejs
+RUN apt install -y nodejs
