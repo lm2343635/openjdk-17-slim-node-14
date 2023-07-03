@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk
+FROM openjdk:17
 
 RUN apt update
 RUN curl -sL https://deb.nodesource.com/setup_14.x -o setup_14.sh
